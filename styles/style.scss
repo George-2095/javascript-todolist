@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+.contentcontainer {
+    margin-top: 60px;
+}
+
+.item {
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .contentcontainer {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contentcontainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
